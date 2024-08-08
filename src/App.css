@@ -13,6 +13,7 @@
   }
 }
 
+/*
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +24,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+*/
 
 .App-link {
   color: #61dafb;
@@ -36,3 +38,109 @@
     transform: rotate(360deg);
   }
 }
+
+.name {
+  margin-left: 363px;
+  width: 235px;
+}
+
+.safety {
+  margin-left: 599px;
+  width: 367px;
+}
+
+.position {
+  margin-left: 967px;
+}
+
+.username {
+  padding-right: 50px;
+  width: 235px;
+}
+
+.usersafety {
+  padding-right: 50px;
+  width: 367px;
+}
+
+.position {
+  width: 367px;
+}
+
+.userposition {
+  width: 367px;
+}
+
+body {
+  background-color: #D7F0D5;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #DCDADA;
+  margin-left: 361px;
+  margin-right: 105px;
+  width: 971px;
+}
+
+header {
+  background-color: #98CB9A;
+}
+
+
+.map {
+  background-color: #98CB9A;
+  margin-left: 464px;
+}
+
+.safetyInfo {
+  background-color: #F9B07B;
+  margin-left: 749px;
+}
+
+.map, .safetyInfo {
+  font-size: 32px;
+  text-align: center;
+  width: 235px;
+  height: 66px;
+  border: none;
+  /*margin: 0;*/
+}
+
+.button-container {
+  display: frex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 91px;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 64px;
+  background-color: #98CB9A;
+}
+
+.name-order {
+  display: frex;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 43px;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.alpha-order {
+  background-color: #98CB9A;
+  margin-top: 317px;
+}
+
+.old-order {
+  background-color: #F9B07B;
+  margin-top: 416px;
+}
+
